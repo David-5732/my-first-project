@@ -1,0 +1,175 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #24160b;
+  background-color: #fff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.header-link {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.48235;
+  color: #222;
+}
+.header-button {
+  border-radius: 80px;
+  width: 154px;
+  height: 57px;
+  background: #efae35;
+}
+
+/*  FIRST SECTION */
+.first-title-first-section {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1.2;
+  color: #000;
+  width: 551px;
+}
+.text-first-section {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #000;
+}
+
+/* SECOND-SECTION */
+.second-title-second-section {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1.2;
+}
+.first-text-second-section {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #24160b;
+  width: 416px;
+}
+.button-second-section {
+  border-radius: 80px;
+  width: 134px;
+  height: 57px;
+  background-color: #efae35;
+}
+.second-text-second-section {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.48235;
+}
+
+/* THIRD SECTION */
+.third-title-third-section {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.3;
+  width: 347px;
+}
+
+.first-text-third-section {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  width: 442px;
+}
+
+.four-title-third-section {
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 0.96552;
+}
+
+.second-text-third-section {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  width: 398px;
+}
+
+.third-text-third-section {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 3.06;
+}
+
+/* SECTION 4 */
+
+.third-title-four-section {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.3;
+  width: 440px;
+}
+
+.first-text-four-section {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  width: 457px;
+}
+
+.four-title-four-section {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 0.93333;
+}
+
+.second-text-four-section {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  width: 392px;
+}
+
+.third-text-four-section {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 3.06;
+}
+
+/* SECTION 5 */
+
+.third-title-five-section {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.3;
+  width: 386px;
+}
+
+.first-text-five-section {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  width: 456px;
+}
+
+.four-title-five-section {
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 0.96552;
+}
+
+.second-text-five-section {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  width: 379px;
+}
+
+.third-text-five-section {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 3.06;
+}
+
+/* SECTION 6 */
