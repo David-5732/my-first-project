@@ -136,6 +136,7 @@ img {
   width: 671px;
   margin-top: 40px;
   margin-bottom: 806px;
+  margin-left: 60px;
 }
 .first-text-first-section {
   font-weight: 700;
@@ -184,6 +185,7 @@ img {
   font-size: 24px;
   line-height: 1.35;
   color: #efe7e2;
+  text-align: center;
 }
 
 .text-second-section {
@@ -191,4 +193,28 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: #b7aaa2;
+  text-align: center;
+}
+
+.list-second-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 140px;
+  margin-top: 140px;
+  margin-bottom: 115px;
+}
+
+.icon-box-second-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  width: 300px;
+  height: 195px;
+}
+
+.item-second-saction {
+  width: calc((100% - 280) / 3);
 }
