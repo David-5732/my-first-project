@@ -92,6 +92,11 @@ header {
   font-size: 15px;
   line-height: 1.35;
   color: #efe7e2;
+  transition: 300ms;
+}
+
+.header-item-link:hover {
+  color: #ff6e40;
 }
 
 .address-item {
@@ -285,6 +290,11 @@ header {
   width: 100%;
   height: 100%;
   padding: 10px 40px;
+  transition: 300ms;
+}
+
+.instagram-link:hover {
+  color: #ff6e40;
 }
 
 .instagram {
@@ -336,10 +346,6 @@ header {
 }
 
 /* SECTION 5 */
-.section-five {
-  padding-top: 60px;
-  background-color: #3b322d;
-}
 
 .title-five-section {
   font-weight: 700;
@@ -347,29 +353,39 @@ header {
   line-height: 1.25;
   text-align: center;
   color: #fff;
+  margin-bottom: 24px;
 }
 
-.text-title {
+.text-title-five-section {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.6;
   text-align: center;
   color: #efe7e2;
-  margin-top: 24px;
-  margin-bottom: 62px;
+  margin-bottom: 63px;
 }
-
-.title-name {
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 1.33;
-  color: #efe7e2;
-  margin-top: 20px;
-}
-
-.card-five-section {
+.menu-container {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
+}
+.menu-section {
+  text-align: center;
+}
+.menu-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.price-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 1em;
+  color: #ccc;
+}
+.time {
+  color: #777;
+  margin-right: 10px;
 }
