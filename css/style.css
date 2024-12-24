@@ -409,7 +409,7 @@ header {
 
 .form-container {
   background-color: #ff6e40;
-  width: 1180px;
+  width: 100%;
   margin: 0 auto;
   padding-bottom: 87px;
 }
@@ -463,5 +463,62 @@ input::placeholder {
 /* SECTION SEVEN */
 .section-seven {
   background-image: url("../images/Map.jpg");
+  background-size: cover;
+  background-color: #251d1a;
   height: 650px;
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.map-container {
+  background-color: #251d1a;
+  position: absolute;
+  margin-top: 60px;
+
+  padding: 60px 60px;
+  border-radius: 5px;
+}
+
+.map-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.25;
+  color: #fff;
+  margin-bottom: 34px;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  margin-bottom: 25px;
+}
+
+.item-container:last-child {
+  margin-bottom: 0;
+}
+
+.item-map {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.43;
+  color: #fff;
+}
+
+.item-icon-map {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: #ff6e40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #000;
+  height: 120px;
 }
